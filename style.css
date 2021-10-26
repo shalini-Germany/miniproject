@@ -1,0 +1,100 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+    }
+
+.top_header
+{
+    background-color: rgb(26, 3, 80);
+    padding : 10px;
+    color: white;
+    display: flex;
+    flex-direction : row;
+}
+.top_header > div
+{
+    flex-grow: 1;
+    padding: 5px;
+}
+.header_grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #f9fbfc;
+    padding: 10px;
+  }
+  .header_grid_item_left {
+
+  }
+  .header_grid_item_right {
+}
+.navbar
+{
+    padding: 10px;
+    align-items: center;
+}
+.navbar > ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.navbar > li
+{
+    float: left;
+}
+#nav li + li:before {
+    content: " | ";
+    padding: 0 20px;
+    float : left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color:white;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid white;
+    text-align: center;
+    font-size: 30px;
+  }
+  .inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .inner-grid > div {
+    background:white;
+    padding: 8px;
+  }
+
+  .inner-grid > div > p
+  {
+      text-align: left;
+
+  }
+  .butt {
+      margin: 40px;
+      padding: 10px;
+    background-color: rgb(223, 154, 7);
+    height:180px;
+    width:180px;
+    font-size: 24px;
+    cursor:pointer;
+ }
+ 
+ .butt:hover {
+    background-color: rgb(235, 110, 8);
+    color:white;
+ }
+
+
