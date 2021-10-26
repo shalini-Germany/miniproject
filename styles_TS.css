@@ -1,0 +1,310 @@
+#header {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.top-slot {
+  width: 100%;
+}
+
+#global-nav-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.5%;
+}
+.ul-global-nav-1 {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.ul-global-nav-1 li {
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.float-right {
+  float: right;
+}
+
+#global-nav-2 {
+  list-style-type: none;
+  padding: 2%;
+}
+
+.ul-global-nav-2 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ul-global-nav-2 a {
+  border: solid 0.2px black;
+  padding: 15px 10px;
+  border-radius: 8px;
+  margin: 0.5%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color ease-in 0.5s, color ease-out 0.5s,
+    transform ease 0.3s;
+}
+
+.ul-global-nav-2 a:hover {
+  background-color: red;
+  color: black;
+}
+
+.ul-global-nav-2 a:focus {
+  background-color: red;
+  color: black;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  border: none;
+  height: 22px;
+  width: 250px;
+  padding: 0;
+}
+
+#search-submit {
+  width: 25px;
+  background: transparent
+    url(https://cosmolearning.org/images_dir/navigation/globalnav/search_field/search19.png)
+    no-repeat;
+  padding: 0;
+  border: none;
+  height: 20px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-item {
+  width: 100%;
+  height: 250px;
+  border: solid grey;
+  border-width: 0.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 1%;
+  align-content: center;
+}
+
+.container-item .column img {
+  width: 140px;
+  height: 60px;
+}
+
+.column {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.column div a b {
+  font-size: 14px;
+}
+
+.visit-course-button span {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  color: #fff;
+  border-radius: 5px;
+  background: #00506e
+    url("https://cosmolearning.org/images_dir/bg/gradient/horz_h30_w100_sc339BCC_ec00506e.jpg")
+    top center repeat-x;
+}
+
+.visit-course-button span a {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.body-container-header {
+  padding-top: 1%;
+  color: white;
+  text-align: center;
+  border: solid lightyellow;
+}
+
+.body-container-header:focus {
+  background-color: lightcoral;
+  border-color: black;
+}
+
+div#education {
+  background-color: black;
+  border: solid;
+  border-color: yellow;
+}
+
+div#education .container-item {
+  color: white;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+div#education .container-item:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+div#courses {
+  background-color: grey;
+  border: solid;
+  border-color: yellow;
+}
+
+div#courses .container-item {
+  color: black;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+div#courses .container-item:hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+div#courses .container-item {
+  border: solid black;
+}
+
+div#documentaries {
+  background-color: black;
+  border: solid;
+  border-color: yellow;
+}
+
+div#documentaries .container-item {
+  color: white;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+div#documentaries .container-item:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+div#contactUs {
+  background-color: gray;
+  border: solid;
+  border-color: yellow;
+}
+
+div#contactUs .container-item {
+  width: 98%;
+  height: 50px;
+  border: solid grey;
+  border-width: 0.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 1%;
+  align-content: center;
+}
+
+div#contactUs .container-item input,
+select,
+textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 1%;
+  transition: background-color 0.1s ease;
+  text-align: center;
+}
+
+div#contactUs .container-item input,
+select,
+textarea:focus {
+  background-color: white;
+}
+
+div#contactUs .container-item select:focus {
+  background-color: white;
+}
+
+.button-conatiner {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.button-conatiner input {
+  margin: 1%;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+.primary {
+  background-color: lightskyblue;
+  transition: background-color 0.2s ease, font-weight 0.1s ease;
+}
+
+.primary:hover {
+  background-color: red;
+  font-weight: bold;
+}
+
+.secondary {
+  background-color: lightslategrey;
+  transition: background-color 0.2s ease, font-weight 0.1s ease;
+}
+.secondary:hover {
+  background-color: red;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 840px) {
+  .container-item {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  div#contactUs .container-item {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .ul-global-nav-2 {
+    flex-direction: row;
+  }
+}
